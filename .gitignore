@@ -39,10 +39,6 @@ dist/
 # PyCharm
 *.iml
 
-# Docker
-Dockerfile
-docker-compose.yml
-
 # Logs
 *.log
 
@@ -63,6 +59,3 @@ Desktop.ini
 # Remove specific large files if previously added (adjust as needed)
 *.dll
 *.lib
-
-# Render-specific files
-render.yaml
