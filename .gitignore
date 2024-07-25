@@ -1,0 +1,68 @@
+# Virtual environment
+venv/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled files
+*.so
+*.dylib
+
+# Build and distribution folders
+build/
+dist/
+*.egg
+*.egg-info/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.cache/
+
+# Mypy and coverage
+.mypy_cache/
+.coverage
+*.cover
+
+# PyCharm
+*.iml
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Git Large File Storage
+.gitattributes
+
+# Remove specific large files if previously added (adjust as needed)
+*.dll
+*.lib
+
+# Render-specific files
+render.yaml
